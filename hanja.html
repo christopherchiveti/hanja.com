@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4ed">
+  <meta name="description" content="Discover beautiful braids, protective styles, wig installs and hair care by Hanjaa Berryl. Call or WhatsApp 0794438690 to book.">
+  <title>Hanjaa Berryl Hair Studio | Hair, Styled With Love</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hanjaa Berryl Hair Studio | Hair, Styled With Love">
+  <meta property="og:description" content="Discover braids, protective styles, wig installs and hair care by Hanjaa Berryl. Call or WhatsApp 0794438690 to book.">
+  <meta property="og:locale" content="en_KE">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HairSalon",
+    "name": "Hanjaa Berryl Hair Studio",
+    "description": "Braids, protective styles, wig installs, natural hair styling, treatments and event hair by Hanjaa Berryl.",
+    "telephone": "+254794438690",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+254794438690",
+      "contactType": "appointments",
+      "availableLanguage": ["English", "Swahili"]
+    },
+    "knowsAbout": [
+      "Hair braiding",
+      "Protective hairstyles",
+      "Wig styling and installation",
+      "Natural hair styling",
+      "Hair treatments",
+      "Bridal and event hairstyling"
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #29231f;
+      --muted: #716961;
+      --cream: #f8f4ed;
+      --paper: #fffdf9;
+      --rose: #bc725e;
+      --rose-dark: #9c5847;
+      --line: #e8dfd4;
+      --sage: #dce1d4;
+      --serif: "Playfair Display", Georgia, serif;
+      --sans: "DM Sans", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); }
+    a { color: inherit; }
+    button, input, select, textarea { font: inherit; }
+    .wrap { width: min(1120px, calc(100% - 48px)); margin-inline: auto; }
+    .eyebrow { color: var(--rose-dark); font-size: .73rem; font-weight: 700; letter-spacing: .19em; text-transform: uppercase; }
+    .serif { font-family: var(--serif); font-weight: 500; }
+    .button { min-height: 48px; display: inline-flex; align-items: center; justify-content: center; gap: 9px; padding: 0 21px; border: 1px solid var(--rose); border-radius: 4px; background: var(--rose); color: white; text-decoration: none; font-weight: 600; transition: background .2s, transform .2s; cursor: pointer; }
+    .button:hover { background: var(--rose-dark); transform: translateY(-2px); }
+    .button--outline { color: var(--ink); border-color: #bdb1a4; background: transparent; }
+    .button--outline:hover { background: white; }
+
+    .topbar { background: #302925; color: #fffaf4; text-align: center; padding: 9px 16px; font-size: .78rem; letter-spacing: .035em; }
+    .topbar a { color: inherit; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    header { position: sticky; z-index: 10; top: 0; background: rgba(255,253,249,.95); border-bottom: 1px solid rgba(232,223,212,.8); backdrop-filter: blur(12px); }
+    .nav { min-height: 75px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: flex; flex-direction: column; text-decoration: none; line-height: 1.05; }
+    .brand strong { font-family: var(--serif); font-size: 1.35rem; font-weight: 600; letter-spacing: -.025em; }
+    .brand span { margin-top: 5px; color: var(--muted); font-size: .62rem; letter-spacing: .18em; text-transform: uppercase; }
+    .nav-links { display: flex; align-items: center; gap: 30px; }
+    .nav-links > a:not(.button) { color: #4c443e; text-decoration: none; font-size: .87rem; }
+    .nav-links > a:not(.button):hover { color: var(--rose-dark); }
+    .nav-links .button { min-height: 42px; padding-inline: 17px; font-size: .84rem; }
+    .menu-toggle { display: none; width: 44px; height: 44px; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 4px; font-size: 1.35rem; cursor: pointer; }
+
+    .hero { background: var(--cream); overflow: hidden; }
+    .hero-grid { min-height: 570px; display: grid; grid-template-columns: 1fr .95fr; align-items: center; gap: 65px; padding-block: 60px; }
+    .hero-copy { max-width: 505px; }
+    .hero h1 { margin: 18px 0 17px; font: 500 clamp(3rem, 5.8vw, 5.1rem)/1.02 var(--serif); letter-spacing: -.045em; }
+    .hero h1 em { color: var(--rose-dark); font-weight: 500; }
+    .hero-copy > p { max-width: 445px; margin: 0; color: var(--muted); font-size: 1.02rem; line-height: 1.8; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    .hero-note { display: flex; align-items: center; gap: 11px; margin-top: 30px; color: var(--muted); font-size: .82rem; }
+    .note-dot { width: 8px; height: 8px; border-radius: 50%; background: #77856d; box-shadow: 0 0 0 5px rgba(119,133,109,.13); }
+    .hero-art { min-height: 420px; position: relative; overflow: hidden; background: var(--sage); border-radius: 48% 48% 4px 4px; }
+    .hero-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; transform: scale(1.25); }
+    .hero-caption { position: absolute; right: 12px; bottom: 24px; max-width: 190px; padding: 15px 18px; background: var(--paper); box-shadow: 0 8px 30px #3029251a; font: 500 1rem/1.35 var(--serif); }
+    .hero-caption small { display: block; margin-top: 5px; color: var(--muted); font: .67rem var(--sans); letter-spacing: .1em; text-transform: uppercase; }
+
+    .trust-row { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--line); }
+    .trust-item { display: flex; align-items: center; justify-content: center; gap: 11px; padding: 23px 10px; color: #514840; font-size: .84rem; }
+    .trust-item + .trust-item { border-left: 1px solid var(--line); }
+    .trust-icon { color: var(--rose-dark); font-size: 1.15rem; }
+
+    section { scroll-margin-top: 92px; }
+    .section { padding-block: 92px; }
+    .section-heading { max-width: 610px; margin: 0 auto 38px; text-align: center; }
+    .section-heading h2 { margin: 11px 0 12px; font: 500 clamp(2.25rem, 4vw, 3.25rem)/1.12 var(--serif); letter-spacing: -.035em; }
+    .section-heading p { margin: 0; color: var(--muted); line-height: 1.75; }
+    .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+    .service-card { overflow: hidden; border: 1px solid var(--line); background: #fff; transition: transform .2s, box-shadow .2s; }
+    .service-card:hover { transform: translateY(-4px); box-shadow: 0 14px 36px #352a2010; }
+    .service-image { display: block; width: 100%; height: 210px; object-fit: cover; object-position: center 30%; }
+    .service-body { padding: 22px 25px 24px; }
+    .service-number { color: var(--rose); font: 1.15rem var(--serif); }
+    .service-card h3 { margin: 17px 0 9px; font: 500 1.4rem var(--serif); }
+    .service-card p { margin: 0; color: var(--muted); font-size: .88rem; line-height: 1.7; }
+    .service-link { display: inline-block; margin-top: 20px; color: var(--rose-dark); font-size: .79rem; font-weight: 700; text-decoration: none; }
+    .service-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+
+    .about { background: var(--cream); }
+    .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: 75px; }
+    .about-art { min-height: 360px; position: relative; display: grid; place-items: center; overflow: hidden; background: linear-gradient(35deg, #e6d5c6, #f8f4ed 60%, #dce1d4); border: 1px solid #cbb8a4; }
+    .about-art::before { position: absolute; width: 240px; height: 240px; content: ""; border: 1px solid #bc725e66; border-radius: 50%; }
+    .about-art-mark { color: var(--rose-dark); font: 500 7rem var(--serif); }
+    .about-art-label { position: absolute; right: 16px; bottom: 16px; padding: 10px 13px; background: var(--paper); color: var(--muted); font-size: .73rem; letter-spacing: .12em; text-transform: uppercase; }
+    .about-copy { position: relative; z-index: 1; }
+    .about-copy h2 { margin: 12px 0 17px; font: 500 clamp(2.4rem, 4vw, 3.5rem)/1.1 var(--serif); letter-spacing: -.04em; }
+    .about-copy p { color: var(--muted); line-height: 1.85; }
+    .about-signoff { margin-top: 25px; color: var(--rose-dark); font: italic 1.45rem var(--serif); }
+
+    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+    .gallery-item { min-height: 145px; display: flex; flex-direction: column; justify-content: space-between; padding: 22px; border: 1px solid var(--line); background: linear-gradient(145deg, #f8f4ed, #fffdf9); }
+    .gallery-item:nth-child(2n) { background: linear-gradient(145deg, #e9ded3, #f8f4ed); }
+    .gallery-mark { color: var(--rose); font: 1.35rem var(--serif); }
+    .gallery-label { color: #514840; font: 500 1.1rem var(--serif); }
+
+    .booking { background: #302925; color: #fffaf4; }
+    .booking-grid { display: grid; grid-template-columns: .85fr 1.15fr; align-items: start; gap: 80px; }
+    .booking .eyebrow { color: #e3aa95; }
+    .booking-copy h2 { margin: 12px 0; font: 500 clamp(2.4rem, 4vw, 3.5rem)/1.1 var(--serif); letter-spacing: -.035em; }
+    .booking-copy p { color: #d0c4ba; line-height: 1.8; }
+    .contact-list { display: grid; gap: 14px; margin-top: 28px; }
+    .contact-list a { width: fit-content; color: #fffaf4; text-decoration: none; }
+    .contact-list a:hover { text-decoration: underline; text-underline-offset: 4px; }
+    .booking-form { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; padding: 26px; background: #fffdf9; color: var(--ink); border-radius: 4px; }
+    .field { display: grid; gap: 7px; }
+    .field--full { grid-column: 1 / -1; }
+    .field label { font-size: .76rem; font-weight: 700; }
+    .field input, .field select, .field textarea { width: 100%; min-height: 45px; padding: 10px 12px; border: 1px solid #ded5ca; border-radius: 3px; background: white; color: var(--ink); }
+    .field textarea { min-height: 90px; resize: vertical; }
+    .field input:focus, .field select:focus, .field textarea:focus { outline: 2px solid #bc725e55; border-color: var(--rose); }
+    .booking-form .button { grid-column: 1 / -1; width: 100%; margin-top: 3px; }
+    .form-note { grid-column: 1 / -1; margin: -4px 0 0; color: var(--muted); font-size: .72rem; text-align: center; }
+
+    footer { padding: 26px 0; background: #241f1b; color: #d9cfc5; font-size: .78rem; }
+    .footer-row { display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    footer a { color: inherit; text-decoration: none; }
+    footer a:hover { color: white; }
+    .footer-links { display: flex; gap: 20px; }
+    .whatsapp-float { position: fixed; z-index: 9; right: 22px; bottom: 22px; width: 55px; height: 55px; display: grid; place-items: center; border: 2px solid white; border-radius: 50%; background: #258b58; color: white; font-size: 1.35rem; text-decoration: none; box-shadow: 0 5px 20px #0003; transition: transform .2s; }
+    .whatsapp-float:hover { transform: scale(1.08); }
+
+    @media (max-width: 800px) {
+      .hero-grid { min-height: auto; gap: 35px; grid-template-columns: 1fr .85fr; }
+      .hero-art { min-height: 350px; }
+      .about-grid { gap: 45px; }
+      .booking-grid { gap: 42px; }
+      .nav-links { gap: 18px; }
+      .nav-links > a:not(.button) { font-size: .81rem; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: min(100% - 36px, 480px); }
+      .topbar { font-size: .72rem; }
+      .nav { min-height: 67px; }
+      .menu-toggle { display: block; }
+      .nav-links { position: absolute; top: 66px; left: 0; right: 0; display: none; align-items: stretch; gap: 0; padding: 8px 18px 18px; border-bottom: 1px solid var(--line); background: var(--paper); box-shadow: 0 12px 20px #0000000b; }
+      .nav-links.is-open { display: flex; flex-direction: column; }
+      .nav-links > a:not(.button) { padding: 13px 4px; border-bottom: 1px solid var(--line); font-size: .9rem; }
+      .nav-links .button { margin-top: 14px; }
+      .hero-grid { grid-template-columns: 1fr; gap: 30px; padding-block: 50px 35px; }
+      .hero h1 { font-size: clamp(3rem, 13vw, 4rem); }
+      .hero-copy > p { font-size: .94rem; }
+      .hero-art { min-height: 290px; width: min(100%, 390px); margin-inline: auto; }
+      .hero-caption { right: 8px; bottom: 14px; }
+      .trust-item { flex-direction: column; gap: 6px; padding: 16px 5px; font-size: .69rem; text-align: center; }
+      .section { padding-block: 67px; }
+      .services-grid { grid-template-columns: 1fr; gap: 12px; }
+      .service-image { height: 220px; }
+      .service-body { padding: 20px 22px 22px; }
+      .about-grid, .booking-grid { grid-template-columns: 1fr; gap: 38px; }
+      .about-art { min-height: 290px; }
+      .about-copy h2 { font-size: 2.7rem; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; gap: 9px; }
+      .gallery-item { min-height: 125px; padding: 16px; }
+      .booking-form { padding: 20px; }
+      .footer-row { align-items: flex-start; flex-direction: column; }
+      .whatsapp-float { right: 15px; bottom: 15px; }
+    }
+    @media (max-width: 390px) {
+      .booking-form { grid-template-columns: 1fr; }
+      .field--full, .booking-form .button, .form-note { grid-column: auto; }
+      .hero-actions .button { width: 100%; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">Now welcoming new clients &nbsp;·&nbsp; Call or WhatsApp <a href="tel:+254794438690">0794 438 690</a></div>
+  <header>
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Hanjaa Berryl Hair Studio home">
+        <strong>Hanjaa Berryl</strong>
+        <span>Hair Studio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#looks">Our work</a>
+        <a href="#contact">Contact</a>
+        <a class="button" href="#contact">Book an appointment <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-grid wrap">
+        <div class="hero-copy">
+          <span class="eyebrow">Good hair days start here</span>
+          <h1 class="serif">Your hair,<br><em>your kind</em> of beautiful.</h1>
+          <p>Thoughtful styling, protective braids and feel-good hair care by Hanjaa Berryl. Come as you are; leave feeling like yourself, only more fabulous.</p>
+          <div class="hero-actions">
+            <a class="button" href="#contact">Book your style <span aria-hidden="true">↗</span></a>
+            <a class="button button--outline" href="https://wa.me/254794438690?text=Hi%20Hanja%2C%20I%27d%20like%20to%20ask%20about%20booking%20a%20hair%20appointment." target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          </div>
+          <div class="hero-note"><span class="note-dot" aria-hidden="true"></span> Personal care, beautiful results, every time.</div>
+        </div>
+        <div class="hero-art" aria-label="Hanjaa Berryl Hair Studio">
+          <img src="assets/hanjaa-portrait.png" alt="Portrait shared for Hanjaa Berryl Hair Studio">
+          <div class="hero-caption">A little care goes a long way.<small>Your chair is waiting</small></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-row wrap" aria-label="What to expect">
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">✳</span> Styles made for you</div>
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">♡</span> Gentle hair care</div>
+      <div class="trust-item"><span class="trust-icon" aria-hidden="true">✧</span> A welcoming experience</div>
+    </div>
+
+    <section class="section wrap" id="services">
+      <div class="section-heading">
+        <span class="eyebrow">The good hair menu</span>
+        <h2 class="serif">A style for every side of you</h2>
+        <p>From everyday protective styles to a special-occasion glow-up, let's find the look that feels just right.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card">
+          <img class="service-image" src="assets/hanjaa-portrait.png" alt="Hanjaa Berryl, hair stylist">
+          <div class="service-body">
+            <span class="service-number">01</span>
+            <h3>Braids & protective styles</h3>
+            <p>Neat, beautiful braids and protective looks, thoughtfully styled to suit your hair and your routine.</p>
+            <a class="service-link" href="#contact" data-service="Braids & protective styles">Ask about this style ↗</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="assets/hanjaa-portrait.png" alt="Hanjaa Berryl, hair stylist">
+          <div class="service-body">
+            <span class="service-number">02</span>
+            <h3>Wig styling & installs</h3>
+            <p>Freshen up your look with wig preparation, styling and a polished install made to feel like you.</p>
+            <a class="service-link" href="#contact" data-service="Wig styling & installs">Ask about this style ↗</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="assets/hanjaa-portrait.png" alt="Hanjaa Berryl, hair stylist">
+          <div class="service-body">
+            <span class="service-number">03</span>
+            <h3>Wash, treatment & care</h3>
+            <p>Give your hair a little extra love with a refreshing wash and caring treatments for healthy-looking hair.</p>
+            <a class="service-link" href="#contact" data-service="Wash, treatment & care">Ask about this style ↗</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="assets/hanjaa-portrait.png" alt="Hanjaa Berryl, hair stylist">
+          <div class="service-body">
+            <span class="service-number">04</span>
+            <h3>Natural hair styling</h3>
+            <p>Celebrate your texture with a shape and style that brings out the best in your natural hair.</p>
+            <a class="service-link" href="#contact" data-service="Natural hair styling">Ask about this style ↗</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="assets/hanjaa-portrait.png" alt="Hanjaa Berryl, hair stylist">
+          <div class="service-body">
+            <span class="service-number">05</span>
+            <h3>Weaves & extensions</h3>
+            <p>Add length, volume or a little something new with a tailored weave or extension style.</p>
+            <a class="service-link" href="#contact" data-service="Weaves & extensions">Ask about this style ↗</a>
+          </div>
+        </article>
+        <article class="service-card">
+          <img class="service-image" src="assets/hanjaa-portrait.png" alt="Hanjaa Berryl, hair stylist">
+          <div class="service-body">
+            <span class="service-number">06</span>
+            <h3>Event & bridal hair</h3>
+            <p>For birthdays, celebrations and big days—let's create a look you'll love in every photo.</p>
+            <a class="service-link" href="#contact" data-service="Event & bridal hair">Ask about this style ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="about-grid wrap">
+        <div class="about-art" aria-label="Hanjaa Berryl Hair Studio">
+          <span class="about-art-mark" aria-hidden="true">HB</span>
+          <span class="about-art-label">Styled with care</span>
+        </div>
+        <div class="about-copy">
+          <span class="eyebrow">A little about your stylist</span>
+          <h2 class="serif">Hello, I'm Hanja.</h2>
+          <p>I believe great hair is about more than the finished style—it's about feeling comfortable, cared for and completely yourself. My goal is to make every appointment personal, relaxed and worth looking forward to.</p>
+          <p>Tell me what you're dreaming of, and we'll find a look that works for your hair, your lifestyle and your next big moment.</p>
+          <div class="about-signoff">Can't wait to meet you ♡</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="looks">
+      <div class="section-heading">
+        <span class="eyebrow">A personal experience</span>
+        <h2 class="serif">Your next style starts with a conversation</h2>
+        <p>No stock photos—just thoughtful styling planned around your hair, your inspiration and your routine.</p>
+      </div>
+      <div class="gallery-grid" aria-label="How to plan your appointment">
+        <div class="gallery-item"><span class="gallery-mark">01</span><span class="gallery-label">Share the style you have in mind</span></div>
+        <div class="gallery-item"><span class="gallery-mark">02</span><span class="gallery-label">Talk through your hair goals</span></div>
+        <div class="gallery-item"><span class="gallery-mark">03</span><span class="gallery-label">Choose a time that works for you</span></div>
+        <div class="gallery-item"><span class="gallery-mark">04</span><span class="gallery-label">Get personal care and styling</span></div>
+        <div class="gallery-item"><span class="gallery-mark">05</span><span class="gallery-label">Leave feeling like yourself</span></div>
+      </div>
+    </section>
+
+    <section class="section booking" id="contact">
+      <div class="booking-grid wrap">
+        <div class="booking-copy">
+          <span class="eyebrow">Let's get you booked</span>
+          <h2 class="serif">Your next great hair day is one message away.</h2>
+          <p>Send a booking request and it will open WhatsApp with your details ready to go. Hanja will confirm availability and pricing with you directly.</p>
+          <div class="contact-list">
+            <a href="tel:+254794438690">Call: 0794 438 690</a>
+            <a href="https://wa.me/254794438690?text=Hi%20Hanja%2C%20I%27d%20like%20to%20book%20a%20hair%20appointment." target="_blank" rel="noopener noreferrer">WhatsApp: 0794 438 690 ↗</a>
+            <a href="https://www.google.com/search?q=Hanjaa+Berryl+Hair+Studio" target="_blank" rel="noopener noreferrer">Find Hanja on Google ↗</a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Hanjaa+Berryl+Hair+Studio" target="_blank" rel="noopener noreferrer">Search Google Maps ↗</a>
+          </div>
+        </div>
+        <form class="booking-form" id="booking-form">
+          <div class="field">
+            <label for="client-name">Your name</label>
+            <input id="client-name" name="name" autocomplete="name" placeholder="e.g. Amina" required>
+          </div>
+          <div class="field">
+            <label for="client-phone">Your phone number</label>
+            <input id="client-phone" name="phone" type="tel" autocomplete="tel" placeholder="e.g. 07xx xxx xxx" required>
+          </div>
+          <div class="field field--full">
+            <label for="service">What would you like done?</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Choose a service</option>
+              <option>Braids & protective styles</option>
+              <option>Wig styling & installs</option>
+              <option>Wash, treatment & care</option>
+              <option>Natural hair styling</option>
+              <option>Weaves & extensions</option>
+              <option>Event & bridal hair</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field field--full">
+            <label for="preferred-date">Preferred date</label>
+            <input id="preferred-date" name="date" type="date">
+          </div>
+          <div class="field field--full">
+            <label for="booking-notes">Anything else Hanja should know? <span style="font-weight:400">(optional)</span></label>
+            <textarea id="booking-notes" name="notes" placeholder="Share your preferred time, style ideas or questions..."></textarea>
+          </div>
+          <button class="button" type="submit">Continue to WhatsApp <span aria-hidden="true">↗</span></button>
+          <p class="form-note">Your message opens in WhatsApp—your request isn't sent until you press send there.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-row wrap">
+      <span>© <span id="year"></span> Hanjaa Berryl Hair Studio. Made with care.</span>
+      <div class="footer-links">
+        <a href="tel:+254794438690">Call Hanja</a>
+        <a href="https://www.google.com/search?q=Hanjaa+Berryl+Hair+Studio" target="_blank" rel="noopener noreferrer">Google Search</a>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Hanjaa+Berryl+Hair+Studio" target="_blank" rel="noopener noreferrer">Google Maps</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/254794438690?text=Hi%20Hanja%2C%20I%27d%20like%20to%20ask%20about%20your%20hair%20services." target="_blank" rel="noopener noreferrer" aria-label="Chat with Hanja on WhatsApp">✆</a>
+
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = menuToggle.getAttribute("aria-expanded") === "true";
+      menuToggle.setAttribute("aria-expanded", String(!isOpen));
+      menuToggle.setAttribute("aria-label", isOpen ? "Open navigation menu" : "Close navigation menu");
+      navLinks.classList.toggle("is-open", !isOpen);
+    });
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Open navigation menu");
+      });
+    });
+
+    document.querySelectorAll("[data-service]").forEach((link) => {
+      link.addEventListener("click", () => {
+        document.querySelector("#service").value = link.dataset.service;
+      });
+    });
+
+    document.querySelector("#booking-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const form = event.currentTarget;
+      if (!form.reportValidity()) return;
+
+      const booking = new FormData(form);
+      const message = [
+        "Hi Hanja, I'd like to book a hair appointment.",
+        "",
+        `Name: ${booking.get("name")}`,
+        `My phone: ${booking.get("phone")}`,
+        `Service: ${booking.get("service")}`,
+        booking.get("date") ? `Preferred date: ${booking.get("date")}` : "",
+        booking.get("notes") ? `Notes: ${booking.get("notes")}` : ""
+      ].filter(Boolean).join("\n");
+
+      window.open(`https://wa.me/254794438690?text=${encodeURIComponent(message)}`, "_blank", "noopener,noreferrer");
+    });
+
+    document.querySelector("#year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
